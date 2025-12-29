@@ -150,4 +150,71 @@ footer {
     font-size: 25px;
 }
 
+@media (max-width: 768px) {
+    .header, .menu {
+        flex-direction: column;
+        text-align: center;
+        gap: 15px;
+        padding: 15px 20px;
+    }
+    
+    .menu {
+        gap: 20px;
+        padding: 12px 20px;
+    }
+    
+    .cards {
+        grid-template-columns: 1fr;
+        gap: 20px;
+        padding: 0 20px;
+    }
+    
+    h1 { font-size: 32px; }
+    h2 { font-size: 26px; }
+    h3 { font-size: 21px; }
+    
+    p, .cardin p {
+        margin: 20px;
+        font-size: 16px;
+    }
+    
+    .cardin { padding: 20px; }
+    footer { font-size: 20px; padding: 20px 0; }
+    .btn { font-size: 16px; }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .cards {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+        padding: 0 30px;
+    }
+    
+    h1 { font-size: 40px; }
+    h2 { font-size: 29px; }
+    
+    p {
+        margin: 30px;
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 { font-size: 28px; }
+    h2 { font-size: 22px; }
+    h3 { font-size: 19px; }
+    
+    .logo { font-size: 24px; }
+    .spidy { font-size: 28px; }
+    .menu a { font-size: 14px; }
+    
+    p, .cardin p { 
+        margin: 15px; 
+        font-size: 15px; 
+    }
+    
+    .cardin { padding: 15px; }
+    footer { font-size: 18px; }
+    .btn { font-size: 14px; }
+}
 
