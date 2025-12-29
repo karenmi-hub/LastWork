@@ -8,8 +8,7 @@
 body {
     background-color: #ffffff;
     color: #3d230d;
-    line-height: 1.6;
-    min-height: 100vh;
+    min-height: 100%;
     display: flex;
     flex-direction: column;
 }
@@ -67,7 +66,7 @@ h1 {
     color: #000000;
     text-align: center;
     margin-bottom: 40px;
-    font-size: 2.8rem;
+    font-size: 40px;
     padding-bottom: 20px;
 }
 
@@ -75,21 +74,20 @@ h2 {
     text-align: center;
     color: #201206;
     margin: 25px 0 20px;
-    font-size: 2rem;
+    font-size: 30px;
 }
 
 h3 {
     text-align: center;
     color: #000000;
     margin: 0 0 15px;
-    font-size: 1.5rem;
+    font-size: 25px;
 }
 
 p {
     margin: 50px;
     margin-bottom: 20px;
-    font-size: 1.2rem;
-    line-height: 1.8;
+    font-size: 20px;
 }
 
 
@@ -105,7 +103,7 @@ p {
 
 .card {
     background-color: #ede3d5;
-    border-radius: 5px;
+    border-radius: 10px;
     overflow: hidden;
     border: 1px solid #dddddd;
     height: 100%;
@@ -149,6 +147,7 @@ footer {
     margin-top: 60px;
     font-size: 25px;
 }
+
 
 @media (max-width: 768px) {
     .header, .menu {
@@ -217,4 +216,5 @@ footer {
     footer { font-size: 18px; }
     .btn { font-size: 14px; }
 }
+
 
